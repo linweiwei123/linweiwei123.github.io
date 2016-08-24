@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+</head>
+
+<body ng-app="geolocation-app">
+        <div ng-controller="geo-ctrl">
+            <h1 >{{isSupportGeolocation}}</h1>
+            <h2>{{result}}</h2>
+        </div>
+
+</body>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript">
+        var geolocationApp = angular.module('geolocation-app',[]); 
+        geolocationApp.controller('geo-ctrl',['$http','$scope',function($http,$scope){
+            
+            if(supports_geolocation()){
+                $scope.isSupportGeolocation = "support geolocation";
+                navigator.geolocation.getCurrentPosition(show_map);
+            }
+            else{
+               $scope.isSupportGeolocation = "unsupport geolocation";
+            }
+            
+            //在用户运行分享地址信息后的回调函数
+            function show_map(position){
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+                console.log("经度:"+longitude+",纬度:"+latitude);
+                var param = {"lngx":longitude,"lngy":latitude,"callback": "JSON_CALLBACK"};            
+                $http({method:"JSONP",url:"http://localhost:8081/shcool/getJson?callback=angular.callbacks._0"}).
+                then(function(response) {
+                  console.log(response);
+                    $scope.result = response.data.name
+                  
+                }, function(response) {
+                   console.log(response);
+              });
+            }
+            
+        }]);
+
+        
+        function supports_geolocation(){
+            return !!navigator.geolocation;
+        }
+
+
+    </script>
+</html>

@@ -1,0 +1,155 @@
+body{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    color: #333;  
+}
+
+*{
+  box-sizing: border-box;    
+}
+
+.wrapper{
+    margin: 0px;
+}
+.bg-video {
+    position: relative;
+    width: 100%;
+}
+
+.home-video {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.bg-dark-lay {
+    background-color:  rgba(62,74,89,0.83);
+}
+.bg-lighter-dark-lay{
+    background-color: #F9F9F9;
+}
+
+.content {
+    padding: 30px;
+    overflow: auto;
+}
+.content-boxed{
+    margin: 0 auto;
+    width: 100%;
+}
+.content.content-boxed{
+    max-width: 1280px
+}
+
+.block{
+    background-color: #fff;
+    padding: 20px;
+}
+.block-content{
+    padding: 20px 20px 1px;
+}
+
+a.block{
+    display: block;
+    text-decoration: none;
+}
+a.img{
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fs-2 {
+    font-size: 2em;
+}
+
+.text-white {
+    color: #fff;
+}
+.text-muted{
+    color: #999999;
+}
+
+
+.img-response{
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.25em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-success{
+    background-color: #45C27A;
+}
+.btn-primary{
+    background-color: #5B8FD1;
+}
+
+
+/*--------偏移 start---*/
+.push-30-t {
+    margin-top: 30px !important;
+}
+
+.push-50-t {
+    margin-top: 50px !important;
+}
+.push-50-b {
+    margin-bottom: 50px !important;
+}
+
+.push-70-t{
+    margin-top: 70px !important;
+}
+
+.push-10-r{
+    margin-right: 10px;
+}
+
+.padding-right-2p{
+    padding-right: 2%;
+}
+/*-------偏移 end----*/
+
+/*---- 元素样式 start------*/
+.h2{
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.h4{
+    font-size: 20px;
+}
+
+
+/*---- 元素样式 end------*/
+
+/*-- 删格布局 start --*/
+.row{
+    overflow: auto;
+}
+.row>div{
+    
+}
+.col-4{
+    float: left;
+    width: 33.3%;
+}
+/*-- 删格布局 end --*/
