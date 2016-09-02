@@ -91,7 +91,7 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
-    nokogiri (1.6.7-x64-mingw32)
+    nokogiri (1.6.8.rc3)
       mini_portile2 (~> 2.0.0.rc2)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
