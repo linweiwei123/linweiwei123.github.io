@@ -1,109 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>YitalaUI</title>
-	<link rel="stylesheet" href="css/yitalaUI.css">
+<div class="home">
 
-</head>
+  <h1 class="page-heading">Posts</h1>
 
-<body>
-    <div class="wrapper">
-        <div class="bg-video">
-           
-            <!-- video background -->
-            <div class="home-video">
-                <video autoplay loop muted class="video">
-                    <source src="video/hero_tech.mp4" type="video/mp4">
-                </video>
-            </div>
-            
-            <!-- dark lay -->
-            <div class="bg-dark-lay">
-                <section class="content">
-                    <div class="text-center fs-2 text-white push-30-t">
-                        <span>YitalaUI</span>
-                    </div>
-                    <div class="text-center text-white push-70-t push-50-b">
-                        <h1 class="h2">使用一个极其优秀，灵活的UI框架来构建你的Backend和Frontend网站</h1>
-                        <h2 class="h4 "><em>受全世界成千上万的web开发者的广泛好评</em></h2>
-                        <div class="text-center push-50-t">
-                            <a class="btn btn-success push-10-r">购买 $88</a>
-                            <a class="btn btn-primary">在线预览</a>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            
-            <!-- content -->
-            <div class="bg-lighter-dark-lay">
-                <section class="content content-boxed">
-                    <h3>Admin Templates</h3>
-                    <div class="row">
-                        <div class="col-4 padding-right-2p">
-                            <a href="" class="block">
-                                    <img src="/images/promo_preview_backend.jpg" alt="图片" class="img-response">
-                                    <div class="block-content">
-                                        <div class="h4">Backend</div>
-                                        <p class="text-muted">Explore backend pages</p>
-                                    </div>
-                            </a>
-                        </div>
-                        <div class="col-4 padding-right-2p">
-                            <a href="" class="block">
-                              <img src="/images/promo_preview_backend.jpg" alt="图片" class="img-response">
-                               <div class="block-content">
-                                        <div class="h4">Backend</div>
-                                        <p class="text-muted">Explore backend pages</p>
-                                    </div>
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a href="" class="block">
-                              <img src="/images/promo_preview_backend.jpg" alt="图片" class="img-response">
-                               <div class="block-content">
-                                        <div class="h4">Backend</div>
-                                        <p class="text-muted">Explore backend pages</p>
-                                    </div>
-                            </a>
-                        </div>
-                    </div>
-                    <h3 class="push-30-t">Admin Templates</h3>
-                    <div class="row">
-                        <div class="col-4 padding-right-2p">
-                            <a href="" class="block">
-                                    <img src="/images/promo_preview_backend.jpg" alt="图片" class="img-response">
-                                    <div class="block-content">
-                                        <div class="h4">Backend</div>
-                                        <p class="text-muted">Explore backend pages</p>
-                                    </div>
-                            </a>
-                        </div>
-                        <div class="col-4 padding-right-2p">
-                            <a href="" class="block">
-                              <img src="/images/promo_preview_backend.jpg" alt="图片" class="img-response">
-                               <div class="block-content">
-                                        <div class="h4">Backend</div>
-                                        <p class="text-muted">Explore backend pages</p>
-                                    </div>
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a href="" class="block">
-                              <img src="/images/promo_preview_backend.jpg" alt="图片" class="img-response">
-                               <div class="block-content">
-                                        <div class="h4">Backend</div>
-                                        <p class="text-muted">Explore backend pages</p>
-                                    </div>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            
-        </div>       
-    </div>
-</body>
-</html>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
