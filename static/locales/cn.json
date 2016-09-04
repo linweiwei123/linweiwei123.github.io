@@ -5,15 +5,15 @@
   "nav":{
     "home": "首页",
     "about_me": "关于我",
-    "skills": "技能",
     "projects": "项目",
-    "career": "职业",
     "blog": "博客",
+    "career": "职业",
+    "skills": "技能",
     "link": "友情链接"
   },
   "about_me":{
     "about_me": "关于我",
-    "des": "我是一名Python工程师，有开发网站，运维自动化，编写脚本的经验。人生是不断学习的过程，工作使我变的更严谨，旅行让我的生活更加多彩。通过编程和旅行我能结识到很多朋友。"
+    "des": "我是一名全栈工程师，更喜欢前端开发，有丰富的前端开发经验，喜欢研究前端的架构，性能优化，阅读国外高水平开发人员的博客。我的目标是专注前端30年，成为国内前端领域佼佼者！"
   },
   "skills":{
     "my_skills": "我的技能"
@@ -27,21 +27,21 @@
   },
   "career":{
     "my_career": "职业生涯",
-    "nextcode": "Nextcode",
-    "nextcode_des": "现在我在Nextcode，使用Python为基因分析项目做网站.",
-    "nextcode_date": "2016年4月",
-    "nextcode_job": "Python工程师",
-    "netease": "网易游戏",
-    "netease_des": "在网易游戏，我了解到游戏体系，并使用Python代码为自动化运维服务.",
-    "netease_date": "2015年6月",
-    "netease_job": "运维开发工程师",
-    "ucloud": "Ucloud",
-    "ucloud_des": "在Ucloud,我开始和服务器、操作系统打交道，并使用shell脚本管理海量服务器.",
-    "ucloud_date": "2013年9月",
-    "ucloud_job": "运维开发工程师",
-    "college": "毕业",
-    "college_des": "2013年7月大学毕业，开始了IT职业生涯",
-    "college_date": "2013年7月",
+    "nextcode": "网龙网络",
+    "nextcode_des": "奔着成为前端大牛的目标，入职福建互联网龙头企业，专注前端开发工作，深入学习前端知识，研究前端架构.",
+    "nextcode_date": "2016年~至今",
+    "nextcode_job": "前端工程师",
+    "netease": "亚信科技",
+    "netease_des": "入职亚信科技，在繁多的全栈开发工作中，广泛的接触了前端开发，java开发，Android开发，渐渐发现自己对前端的兴趣.",
+    "netease_date": "2014年~2015年",
+    "netease_job": "全栈工程师",
+    "ucloud": "苏宁易购",
+    "ucloud_des": "校招进入苏宁易购任职，接触j2ee架构，学习了前后端开发语言及框架.",
+    "ucloud_date": "2012年~2014年",
+    "ucloud_job": "软件开发工程师",
+    "college": "初出茅庐",
+    "college_des": "2012年毕业于厦门大学，走上了这个激情无限的IT职业生涯",
+    "college_date": "2012年",
     "college_job": "学生"
   },
   "blog":{

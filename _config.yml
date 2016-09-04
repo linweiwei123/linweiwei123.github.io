@@ -1,50 +1,50 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "David's Blog"
+description: "David（林伟伟）的Github博客，关于web前端技术领域."
+keywords: "David，林伟伟，博客，前端，angularJs，HTML，CSS，javaScript"
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "http://linweiwei123.github.io"
 # url: "http://127.0.0.1:4000"
 
 # blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
+img_path: 'http://linweiwei123.github.io/static/img/blog'
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  name: 'David'
+  first_name: 'Lin'
+  last_name: 'David'
+  email: 'yitalalww@gmail.com'
+  facebook_username: 'yitalalww'
+  github_username: 'linweiwei123'
+  head_img: 'static/img/landing/linweiwei2.jpg'
 
 # social link
 jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+  first_name: 'David'
+  last_name: 'Lin'
+  description: 'Front-End engineer.'
+  link: 'http://linweiwei123.github.io'
+  email: 'yitalalww@gmail.com'
 
 # landing page
 landing:
-  home: 'Home'
-  about: 'About'
-  career: 'Career'
-  skills: 'Skills'
-  projects: 'Project'
-  blog: 'Blog'
-  link: 'Link'
+  home: '首页'
+  projects: '我的项目'
+  blog: '博客'
+  about: '关于我'
+  career: '职业'
+  skills: '技术栈'
+  link: '友情链接'
 
 # my projects
 project:
   saplatform:
     name: 'Saplatform'
     url: '/Jack614/saplatform'
-    img: 'static/img/landing/saplatform.png'
+    img: 'static/img/landing/css.png'
   jalpc:
     name: 'Jalpc'
     url: '/Jack614/jalpc_jekyll_theme'
@@ -60,13 +60,13 @@ project:
 
 # blog index
 index:
-  home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
+  home: '主页'
+  python: 'CSS3'
+  linux: 'AngularJs'
+  html: 'HTML5'
+  database: 'MEAN'
+  mac: '前端高级进阶'
+  life: '前端架构'
 
 # donate
 donate:
