@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "前端性能的重要性"
+date:   2016-08-08
+desc: "Ionic应用图标和启动页面的配置"
+keywords: "Ionic,icon,splash"
+categories: [HTML]
+tags: [Ionic]
+icon: icon-phone-gap
+---
 # 前端性能的重要性，超过你的想象 #
 ### 用户响应时间花在哪里了？###
 事实上，在绝大部分的网站中用户操作的响应时间10\~20%消耗在web服务端，80\~90%消耗在从web服务器获取HTML文档并传送到浏览器。为了研究这一点，我们拿个网站实战分析一下。我随机抽取Alexa国内排名前十网站中的天猫首页来说明。
